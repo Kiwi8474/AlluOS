@@ -1,3 +1,18 @@
+## AlluOS 0.7.1 | 06-07-2025
+- Fixed bug where the user would start in home/ and not in home/user/
+
+## AlluTerm 0.4.1 | 06-07-2025
+- Added sudo prefix
+- Fixed bug where sudo wouldnt find defined root password
+
+## AlluPackageManager 1.0.0 | 06-07-2025
+- ///
+
+## Nani 1.1.0 | 06-07-2025
+- ///
+
+<hr>
+
 ## AlluOS 0.6.0 | 06-07-2025
 - Added new function to path_manager.py
 - Updated Nani
