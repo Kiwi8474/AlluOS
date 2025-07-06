@@ -1,3 +1,31 @@
+## AlluOS 1.1.1 | 06-07-2025
+- Updated APM
+
+## AlluTerm 1.0.0 | 06-07-2025
+- ///
+
+## AlluPackageManager 1.1.1 | 06-07-2025
+- Fixed search function
+
+## Nani 1.1.1 | 06-07-2025
+- ///
+
+<hr>
+
+## AlluOS 1.1.0 | 06-07-2025
+- Updated APM
+
+## AlluTerm 1.0.0 | 06-07-2025
+- ///
+
+## AlluPackageManager 1.1.0 | 06-07-2025
+- Added search function if a command is not found.
+
+## Nani 1.1.1 | 06-07-2025
+- ///
+
+<hr>
+
 ## AlluOS 1.0.0 | 06-07-2025
 - First stable release
 - Updated AlluTerm
