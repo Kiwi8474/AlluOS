@@ -1,5 +1,26 @@
+## AlluOS 1.0.0 | 06-07-2025
+- First stable release
+- Updated AlluTerm
+- Updated Nani
+
+## AlluTerm 1.0.0 | 06-07-2025
+- First stable release
+- Added mkdir command with directory limit
+- Added `mv` command with directory limit
+- Added `cp` command with directory limit
+- Added `rm` command with directory limit
+- Added `sh` command with directory limit
+
+## AlluPackageManager 1.0.0 | 06-07-2025
+- ///
+
+## Nani 1.1.1 | 06-07-2025
+- removed some unneeded messages
+
+<hr>
+
 ## AlluOS 0.7.1 | 06-07-2025
-- Fixed bug where the user would start in home/ and not in home/user/
+- Fixed bug where the user would start in `home/` and not in `home/user/`
 
 ## AlluTerm 0.4.1 | 06-07-2025
 - Added sudo prefix
@@ -31,17 +52,17 @@
 <hr>
 
 ## AlluOS 0.5.0 | 06-07-2025
-- Updated APM to fist stable version
-- Added Nani and updated to first stable version
+- Updated APM
+- Added Nani
 
 ## AlluTerm 0.2.0 | 06-07-2025
 - ///
 
 ## AlluPackageManager 1.0.0 | 06-07-2025
-- First stable version
+- First stable release
 
 ## Nani 1.0.0 | 06-07-2025
-- First stable version
+- First stable release
 
 <hr>
 
@@ -53,7 +74,7 @@
 - added version command
 
 ## AlluPackageManager 0.2.0 | 06-07-2025
-- changed command ```<package name> version``` to ```apm <package name> version```
+- changed command `<package name> version` to `apm <package name> version`
 
 <hr>
 
