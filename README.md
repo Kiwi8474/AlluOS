@@ -22,6 +22,8 @@ AlluOS is a **lightweight, Python-based command-line operating system** specific
 
 Each pre-installed program in AlluOS is a modular command you can extend or modify.
 
+* **`help`:** Lists all available commands.
+* **`clear`:** Clears the AlluOS terminal.
 * **`ls` (List Files):** Displays the contents of the current directory.
     * `ls`
 * **`cd` (Change Directory):** Changes the current working directory.
@@ -60,17 +62,18 @@ Each pre-installed program in AlluOS is a modular command you can extend or modi
     * `apm uninstall <package_name>`
     * `apm <package_name> version`
 * **`version`:** Displays the current version of AlluOS and its core components.
+* **`exit`:** Exits AlluOS.
 
 ---
 
 ## Installation & Getting Started
 
-1.  **Prerequisites:** You only need **Python 3.10.x** installed on your Linux system.
-2.  **Download:** Download the latest stable version of AlluOS:
-    * **[Download AlluOS 1.0.0 (GitHub Release)](https://github.com/Kiwi8474/AlluOS/releases/tag/1.0.0)**
-    * **[Download AlluOS 1.0.0 (Mirror Server)](http://apm-mirror.duckdns.org/alluos_releases/AlluOS_1.0.0_06-07-2025_stable.zip)**
+1.  **Prerequisites:** You only need **Python 3.12.3** installed on your Linux system.
+2.  **Download:** Download the latest stable version of AlluOS (or any version you desire):
+    * **[Download AlluOS 1.1.1 (GitHub Release)](https://github.com/Kiwi8474/AlluOS/releases/tag/1.1.1)**
+    * **[Download AlluOS 1.1.1 (Mirror Server)](http://apm-mirror.duckdns.org/alluos_releases/AlluOS_1.1.1_06-07-2025_stable.zip	)**
     * *Note: The mirror server offers potentially faster or alternative downloads if GitHub is unreachable. Even though it says, that the files from the mirror server are potentially unsafe, it is 100% guaranteed to be safe.*
-3.  **Extract:** Extract the downloaded `AlluOS_1.0.0_06-07-2025_stable.zip` file to a directory of your choice.
+3.  **Extract:** Extract the downloaded `AlluOS_1.1.1_06-07-2025_stable.zip` file to a directory of your choice.
 4.  **Get a bootloader:** The `_stable.zip` releases provide a bootloader to use. You can also program your own bootloader, but the provided one is recommended.
 5.  **Launch:** Open a terminal, navigate into the directory where AlluOS lies, and run the following command:
     ```bash
@@ -85,5 +88,59 @@ AlluOS is an open-source project. We welcome contributions, bug reports, and fea
 
 * **Issues:** Report bugs or suggest new features on the [GitHub Issues page](https://github.com/Kiwi8474/AlluOS/issues).
 * **Contributions:** Check out our [Contributing Guidelines](CONTRIBUTING.md) if you'd like to contribute code.
+
+---
+
+## File & Folder Paths of Newest Version
+
+This is the pathtree of the newest AlluOS version without any modules installed:
+
+```
+AlluOS/
+   config/
+      installed_modules.json
+      lang_de.json
+      lang_en.json
+      settings.json
+      users.json
+      versions.json
+   home/
+   modules/
+   system/
+      commands/
+         __init__.py
+         apm.py
+         cd.py
+         clear.py
+         cp.py
+         echo.py
+         exit.py
+         help.py
+         ls.py
+         mkdir.py
+         mv.py
+         nani.py
+         rm.py
+         sh.py
+         version.py
+      __init__.py
+      auth_manager.py
+      command_dispatcher.py
+      config_manager.py
+      core.py
+      display_utils.py
+      main.py
+      path_manager.py
+      setup_routines.py
+   tmp/
+```
+
+### But what are the folders even used for?
+
+* **config/:** This is the folder where all the json config files lie.
+* **home/:** This is the home directory for the users.
+* **modules/:** This folder is empty - even after the setup. It is used for installed modules that aren't command-based (like a "Desktop Environment").
+* **system/:** Here are the most important files. It's the heart of AlluOS.
+* **tmp/:** This folder is normally empty. It is used by AlluPackageManager as a temporary folder for the downloaded zip packages, which are deleted after installing.
 
 ---
