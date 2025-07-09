@@ -1,3 +1,18 @@
+## AlluOS 1.2.2 | 09-07-2025
+- Added `cat` command
+- Added missing language file keys
+
+## AlluTerm 1.0.0 | 06-07-2025
+- ///
+
+## AlluPackageManager 1.1.1 | 06-07-2025
+- ///
+
+## Nani 1.1.1 | 06-07-2025
+- ///
+
+---
+
 ## AlluOS 1.1.1 | 06-07-2025
 - Updated APM
 
@@ -10,7 +25,7 @@
 ## Nani 1.1.1 | 06-07-2025
 - ///
 
-<hr>
+---
 
 ## AlluOS 1.1.0 | 06-07-2025
 - Updated APM
@@ -24,7 +39,7 @@
 ## Nani 1.1.1 | 06-07-2025
 - ///
 
-<hr>
+---
 
 ## AlluOS 1.0.0 | 06-07-2025
 - First stable release
@@ -45,7 +60,7 @@
 ## Nani 1.1.1 | 06-07-2025
 - removed some unneeded messages
 
-<hr>
+---
 
 ## AlluOS 0.7.1 | 06-07-2025
 - Fixed bug where the user would start in `home/` and not in `home/user/`
@@ -60,7 +75,7 @@
 ## Nani 1.1.0 | 06-07-2025
 - ///
 
-<hr>
+---
 
 ## AlluOS 0.6.0 | 06-07-2025
 - Added new function to path_manager.py
@@ -77,7 +92,7 @@
 ## Nani 1.1.0 | 06-07-2025
 - Added directory limit
 
-<hr>
+---
 
 ## AlluOS 0.5.0 | 06-07-2025
 - Updated APM
@@ -92,7 +107,7 @@
 ## Nani 1.0.0 | 06-07-2025
 - First stable release
 
-<hr>
+---
 
 ## AlluOS 0.3.0 | 06-07-2025
 - Updated APM
@@ -104,7 +119,7 @@
 ## AlluPackageManager 0.2.0 | 06-07-2025
 - changed command `<package name> version` to `apm <package name> version`
 
-<hr>
+---
 
 ## AlluOS 0.1.0 | 05-07-2025
 - First developer version
