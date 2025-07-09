@@ -144,3 +144,41 @@ AlluOS/
 * **tmp/:** This folder is normally empty. It is used by AlluPackageManager as a temporary folder for the downloaded zip packages, which are deleted after installing.
 
 ---
+
+## Structure of an APM package
+
+This is the structure an APM package should have. Otherwise it won't work with APM.
+
+```
+<package_name>.zip/
+   <command_name>.py
+   <package_name>_version.json
+```
+
+### Explanations of the files
+* **<package_name>.zip/:** This is the package itself. It should only contain the two files mentioned above.
+* **<command_name>.py:** This is the command file. The name of the file will be the command name that you can enter to run the module.
+* **<package_name>_version.json:** This is the json file that contains all of the metadata.
+
+### Content of the files
+
+* **<command_name>.py:**
+```
+# This is the base template of a command
+# You can also put imports of the system/ files here (e.g. "from display_utils import apply_theme" for color themed text)
+def execute(args, lang_dict, theme_settings, current_user, is_admin):
+   return True # Not really needed but good to use
+```
+* **<package_name>_version.json:**
+```
+{
+    "name": "", // Human readable name of your package
+    "identifier": "", // unique identifier ID
+    "version": "", // newest version of your package
+    "release_date": "", // release date of your newest package
+    "description": "", // quick description. 1-2 sentences
+    "author": "" // your name
+}
+```
+
+---
